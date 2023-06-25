@@ -1,0 +1,152 @@
+URL= https://www.webmath.com/index1.html
+MealCost=1000
+OriginalCost= 1500
+PercentOff= 20
+OutsideTemperature= 35
+WindSpeed= 100
+Quarter= 1
+Dime= 1
+Nickel= 1
+Pennies= 1
+NumberedBall= 50
+LowestNumber= 1
+HighestNumber= 49
+DeviceValue= 2000
+DeviceTime= 1
+Weight= 100
+Length=200
+Mass=50
+Area= 1000
+Volume= 200
+Speed= 70
+Power=  220000
+Temperature= 35
+LoanAmount= 100000
+LoanDuration= 20
+PaymentPerYear= 25000
+AnnualInterestRate= 8
+ExtraAmount= 5000
+
+
+
+
+
+
+
+
+Locators
+MathForEveryOneUI
+EverydayMath= //b[text()='Everyday Math']
+PersonalFinance= //b[text()='$$ Personal Finance $$']
+UnitConversion= //b[text()='Units Conversion']
+Math@Home= //b[text()='Math @ Home']
+Math&Beyond= //b[text()='Math & Beyond']
+
+EveryDayMathUi
+FiguringATip= //b[text()='Everyday Math']/parent::font/child::font/child::a
+SalePrice= //b[text()='Everyday Math']/parent::font/child::font/child::a[2]
+WingChill= //b[text()='Everyday Math']/parent::font/child::font/child::a[3]
+CountCoins= //b[text()='Everyday Math']/parent::font/child::font/child::a[4]
+LotteryOdds= //b[text()='Everyday Math']/parent::font/child::font/child::a[5]
+
+FiguringATipFunctionality
+FiguringATip= //a[text()='Figuring a tip']
+MealCostOption= //*[@id=\"d-childMainContLeft\"]/div[2]/table/tbody/tr/td[1]/center/table/tbody/tr/td[2]/form/center/p[2]/input
+FigureTipButton= //*[@id=\"d-childMainContLeft\"]/div[2]/table/tbody/tr/td[1]/center/table/tbody/tr/td[2]/form/center/p[3]/input[1]
+
+SalePriceFunctionality
+SalePriceOption= //a[text()='Sale price']
+OriginalCostSection= //*[@id="d-childMainContLeft"]/div[2]/table/tbody/tr/td[1]/center/table/tbody/tr/td[2]/form/center/p[1]/input
+PercentOffSection= //*[@id="d-childMainContLeft"]/div[2]/table/tbody/tr/td[1]/center/table/tbody/tr/td[2]/form/center/p[2]/input
+FigureCostButton= //*[@id="d-childMainContLeft"]/div[2]/table/tbody/tr/td[1]/center/table/tbody/tr/td[2]/form/center/p[3]/input[1]
+
+WindChillFunctionality
+WindChillSection= //a[text()='Wind Chill']
+OutsideTemperatureSection= //*[@id="d-childMainContLeft"]/div[2]/table/tbody/tr/td[1]/center/table/tbody/tr/td[2]/form/center/input[1]
+WindSpeedSection= //*[@id="d-childMainContLeft"]/div[2]/table/tbody/tr/td[1]/center/table/tbody/tr/td[2]/form/center/input[2]
+HowDoesItFeel?Button= //*[@id="d-childMainContLeft"]/div[2]/table/tbody/tr/td[1]/center/table/tbody/tr/td[2]/form/center/p/input[1]
+
+CountCoinsFunctionality
+CountCoinsOption= //a[text()='Count Coins']
+QuarterOption= //*[@id="d-childMainContLeft"]/div[2]/form/center/input
+DimeOption= //*[@id="d-childMainContLeft"]/div[2]/form/center/p[1]/input
+NickelOption= //*[@id="d-childMainContLeft"]/div[2]/form/center/p[2]/input
+PenniesOption= //*[@id="d-childMainContLeft"]/div[2]/form/center/p[3]/input
+HelpMeCountItButton= //*[@id="d-childMainContLeft"]/div[2]/form/center/p[4]/input
+
+LotteryOddsFunctionality
+LotteryOddsOption= //a[text()='Lottery Odds']
+NumberedBallsOption= //*[@id="d-childMainContLeft"]/div[2]/table/tbody/tr/td[2]/form/center[1]/input
+LowestNumberOption= //*[@id="d-childMainContLeft"]/div[2]/table/tbody/tr/td[2]/form/center[2]/input
+HighestNumberOption= //*[@id="d-childMainContLeft"]/div[2]/table/tbody/tr/td[2]/form/center[3]/input
+WhatAreMyOddsButton= //*[@id="d-childMainContLeft"]/div[2]/table/tbody/tr/td[2]/form/center[4]/input
+
+CostOfElectricityFunctionality
+CostOfElectricity= //a[text()='Cost of electricity']
+DeviceValueOption= //*[@id="d-childMainContLeft"]/div[2]/table/tbody/tr/td[2]/form/center[1]/input
+DeviceTimeOption= //*[@id="d-childMainContLeft"]/div[2]/table/tbody/tr/td[2]/form/center[2]/input
+TimeDropdown= //*[@id="d-childMainContLeft"]/div[2]/table/tbody/tr/td[2]/form/center[2]/select
+Minutes= //*[@id="d-childMainContLeft"]/div[2]/table/tbody/tr/td[2]/form/center[2]/select/option[2]
+HowMuch?Button= //*[@id="d-childMainContLeft"]/div[2]/table/tbody/tr/td[2]/form/input[3]
+
+WeightOnAmotherPlanetFunctionality
+WeightOnAnotherPlanetOption= //a[text()='Weight on Another Planet?']
+MyWeight= //*[@id="d-childMainContLeft"]/div[2]/table[2]/tbody/tr/td/input[1]
+PlanetDropdown= //*[@id="d-childMainContLeft"]/div[2]/table[2]/tbody/tr/td/select
+Venus= //*[@id="d-childMainContLeft"]/div[2]/table[2]/tbody/tr/td/select/option[3]
+HowMuchWouldIWeigh= //*[@id="d-childMainContLeft"]/div[2]/table[2]/tbody/tr/td/input[2]
+
+LengthFunctionality
+LengthOption=//a[text()='Length']
+LengthValue=//*[@id="d-childMainContLeft"]/div[2]/table/tbody/tr/td[2]/font/b/form/center/p[1]/input
+UnitOfLength=//*[@id="d-childMainContLeft"]/div[2]/table/tbody/tr/td[2]/font/b/form/center/p[3]/select
+Kilometer=//*[@id="d-childMainContLeft"]/div[2]/table/tbody/tr/td[2]/font/b/form/center/p[3]/select/option[7]
+ConvertLength=//*[@id="d-childMainContLeft"]/div[2]/table/tbody/tr/td[2]/font/b/form/center/p[3]/input[1]
+
+MassFunctionality
+MassOption=//a[text()='mass']
+MassValue=//*[@id="d-childMainContLeft"]/div[2]/table/tbody/tr/td[2]/font/form/b/center/p[1]/input
+UnitOfMass=//*[@id="d-childMainContLeft"]/div[2]/table/tbody/tr/td[2]/font/form/b/center/p[3]/select
+Kilogram=//*[@id="d-childMainContLeft"]/div[2]/table/tbody/tr/td[2]/font/form/b/center/p[3]/select/option[3]
+ConvertMass=//*[@id="d-childMainContLeft"]/div[2]/table/tbody/tr/td[2]/font/form/b/center/p[4]/input[1]
+
+AreaFunctionality
+AreaOption=//a[text()='area']
+AreaValue=//*[@id="d-childMainContLeft"]/div[2]/form/center/table/tbody/tr/td[1]/center/table/tbody/tr/td[2]/font/b/p[1]/input
+UnitOfArea=//*[@id="d-childMainContLeft"]/div[2]/form/center/table/tbody/tr/td[1]/center/table/tbody/tr/td[2]/font/b/p[3]/select
+Squareinch=//*[@id="d-childMainContLeft"]/div[2]/form/center/table/tbody/tr/td[1]/center/table/tbody/tr/td[2]/font/b/p[3]/select/option[3]
+ConvertArea=//*[@id="d-childMainContLeft"]/div[2]/form/center/table/tbody/tr/td[1]/center/table/tbody/tr/td[2]/font/p/b/input[1]
+
+
+VolumeFunctionality
+VolumeOption=//a[text()='volume']
+VolumeValue=//*[@id="d-childMainContLeft"]/div[2]/table/tbody/tr/td[2]/font/b/form/center/p[1]/input
+ConvertVolume=//*[@id="d-childMainContLeft"]/div[2]/table/tbody/tr/td[2]/font/b/form/center/p[3]/input[1]
+
+
+SpeedFunctionality
+SpeedOption=//a[text()='speed']
+SpeedValue=//*[@id="d-childMainContLeft"]/div[2]/table/tbody/tr/td[2]/font/b/form/center/p[1]/input
+ConvertSpeed=//*[@id="d-childMainContLeft"]/div[2]/table/tbody/tr/td[2]/font/b/form/center/p[3]/input[1]
+
+
+PowerFunctionality
+PowerOption=//a[text()='power']
+PowerValue=//*[@id="d-childMainContLeft"]/div[2]/table/tbody/tr/td[2]/font/b/form/center/p[1]/input
+ConvertPower=//*[@id="d-childMainContLeft"]/div[2]/table/tbody/tr/td[2]/font/b/form/center/p[3]/input[1]
+
+TemperatureFunctionality
+TemperatureOption=//a[text()='Temps.']
+TemperatureValue=//*[@id="d-childMainContLeft"]/div[2]/table/tbody/tr/td[1]/center/table/tbody/tr/td[2]/form/center/p[1]/input[1]
+UnitOfTemp=//*[@id="d-childMainContLeft"]/div[2]/table/tbody/tr/td[1]/center/table/tbody/tr/td[2]/form/center/p[1]/select[2]
+K= //*[@id="d-childMainContLeft"]/div[2]/table/tbody/tr/td[1]/center/table/tbody/tr/td[2]/form/center/p[1]/select[2]/option[3]
+ConvertTemp=//*[@id="d-childMainContLeft"]/div[2]/table/tbody/tr/td[1]/center/table/tbody/tr/td[2]/form/center/p[1]/input[2]
+
+LoanFunctionality
+LoanOption= //a[text()='A loan']
+LoanAmountOption= //*[@id="d-childMainContLeft"]/div[2]/form/table/tbody/tr/td[1]/center/table/tbody/tr/td[2]/font/b/center[1]/input
+LoanDurationOption= //*[@id="d-childMainContLeft"]/div[2]/form/table/tbody/tr/td[1]/center/table/tbody/tr/td[2]/font/b/center[2]/input
+PaymentPerYearOption= //*[@id="d-childMainContLeft"]/div[2]/form/table/tbody/tr/td[1]/center/table/tbody/tr/td[2]/font/b/center[3]/input
+AnnualInterestRateOption= //*[@id="d-childMainContLeft"]/div[2]/form/table/tbody/tr/td[1]/center/table/tbody/tr/td[2]/font/b/center[4]/input
+ExtraAmountOption= //*[@id="d-childMainContLeft"]/div[2]/form/table/tbody/tr/td[1]/center/table/tbody/tr/td[2]/font/b/center[5]/input
+ShowMeLoanPaymentSchedule= //*[@id="d-childMainContLeft"]/div[2]/form/table/tbody/tr/td[1]/center/table/tbody/tr/td[2]/font/b/center[6]/input
